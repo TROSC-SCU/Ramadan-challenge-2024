@@ -16,9 +16,8 @@ using namespace std;
 int division(int a, int b)
 {
     if (b == 0)
-    {
         throw "Division by zero exception";
-    }
+
     return a / b;
 }
 
