@@ -1,6 +1,50 @@
-// today challenge is very easy 
+// today challenge is very easy
 
-// what is the difference between Object Oriented Programming and Functional Programming? 
+// what is the difference between Object Oriented Programming and Functional Programming?
 // explain with code for both :)
 
 // waiting your pull request ^-^
+
+Functional Programming is based on the concept of "Functions" it can take inputs and produce output like when we have a machine that it's doing a specific job, it cannot be used for any other jobs, and this machine is taking inputs and resulting outputs, In Maths: Sin is is a function, 30 deg is input so Sin(30) = 1 / 2, which is output
+
+double sin(int n, double x){
+  if(n == 1)
+     return x;
+  if( ((n-1)/2) % 2 != 0)
+     return  sin(n-2,x) - (pow(x,n)/fact(n)) ;
+  else
+     return  sin(n-2,x) + (pow(x,n)/fact(n)) ;
+}
+
+but in Object Oriented Programming its based on the 4 concepts of Encapsulation, Inheritance, Polymorphism, and Abstraction.
+
+think in anything in the world you can use the abstraction for it, you can consider all the trees as one tree class, all the humans, and every thing, check this PLEASE!: https://www.youtube.com/watch?v=OuiO0hce2QE
+
+class AnyThing {
+	public:
+		string name;
+		string width;
+		string height;
+		string weight;
+	.
+	.
+	.
+	.
+	
+}
+
+class Thing::AnyThing {
+	public: 
+		int age;
+
+	.
+	.
+	.
+	.
+	.
+	
+}
+
+we can make all the maths in the world in one class, and inherit for calculus and as a child class and also for Algebra and Trig
+
+we can also go further and make a class for all science and inherit for Math, Physics, Language, Philosophy and etc...
